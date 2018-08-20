@@ -19,4 +19,4 @@ for (i = 0; i < 50; i++) {
 
 var newFile = JSON.stringify(obj);
 console.log(newFile);
-fs.writeFileSync(path + 'Easy.json', newFile, 'utf8');
+fs.writeFileSync('Easy.json', newFile, 'utf8');
